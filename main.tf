@@ -6,7 +6,7 @@ that is spanning
 multiple lines
 */
 
-/*
+
 terraform {
   required_providers {
     ciscoasa = {
@@ -14,15 +14,15 @@ terraform {
     }
   }
 }
-*/
-/*
+
+
 provider "ciscoasa" {
   api_url       = var.url
   username      = var.username
   password      = var.password
   ssl_no_verify = true
 }
-*/
+
 /*
 resource "ciscoasa_interface_physical" "static" {
   name           = "inside"
